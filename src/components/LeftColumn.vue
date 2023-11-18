@@ -22,7 +22,6 @@
         <p class="text-xs">({{ reviewCount }} Reviews)</p>
       </div>
 
-      <!-- Redes Sociales -->
       <div class="flex items-center space-x-6 my-4 color-primary">
         <font-awesome-icon size="lg" icon="fa-brands fa-facebook-square" />
         <font-awesome-icon size="lg" icon="fa-brands fa-instagram" />
