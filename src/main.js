@@ -15,8 +15,11 @@ import {
   faXTwitter,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import { faDownload, faShare, faUsers, faVideo, faPerson, faUsersRectangle, faPhotoFilm, faUserPlus } from "@fortawesome/free-solid-svg-icons";
-import { faEye, faUser } from "@fortawesome/free-regular-svg-icons";
+import { faDownload, 
+  faShare, faUsers, faVideo, faPerson, faUsersRectangle,
+  faPhotoFilm, faUserPlus, faHeadSideVirus, faBrain, faPaperclip, faScrewdriverWrench, faList
+} from "@fortawesome/free-solid-svg-icons";
+import { faEye, faUser, faComments } from "@fortawesome/free-regular-svg-icons";
 
 
 const app = createApp(App);
@@ -42,7 +45,13 @@ library.add(
   faUsersRectangle,
   faPhotoFilm,
   faUserPlus,
-  faUser
+  faUser,
+  faHeadSideVirus,
+  faBrain,
+  faPaperclip,
+  faScrewdriverWrench,
+  faList,
+  faComments
 );
 app.component("font-awesome-icon", FontAwesomeIcon);
 
