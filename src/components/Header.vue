@@ -1,4 +1,3 @@
-<!-- ./src/components/AppHeader.vue -->
 <template>
   <header class="bg-indigo-800 shadow-md">
     <div class="container mx-auto flex items-center justify-between p-4">

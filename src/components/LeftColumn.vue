@@ -1,4 +1,3 @@
-<!-- ./src/components/LeftColumn.vue -->
 <template>
   <div class="left-column bg-white p-4 rounded border">
     <div class="flex flex-col items-center mt-4 space-y-3 mb-2">

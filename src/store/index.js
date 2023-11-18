@@ -27,6 +27,5 @@ export default createStore({
     },
   },
   modules: {
-    // Si decides agregar módulos adicionales, puedes hacerlo aquí.
   },
 });
