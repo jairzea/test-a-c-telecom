@@ -28,9 +28,9 @@
 </template>
 
 <script>
-import ApiService from "@/services/ApiService";
 import AppCardUI from "@/components/sharedUI/CardUI.vue";
 import AppSkeletonLoadingUI from "@/components/sharedUI/SkeletonLoadingUI.vue";
+import store from "@/store";
 
 export default {
   name: "AppCarousel",
@@ -38,20 +38,16 @@ export default {
     AppCardUI,
     AppSkeletonLoadingUI,
   },
-  data() {
-    return {
-      carouselItems: [],
-      loading: true,
-    };
+  computed: {
+    carouselItems() {
+      return store.state.carouselItems;
+    },
+    loading() {
+      return store.state.loading;
+    },
   },
   async mounted() {
-    try {
-      this.carouselItems = await ApiService.getImages();
-    } catch (error) {
-      console.error("Error al obtener las imágenes en el componente", error);
-    } finally {
-      this.loading = false;
-    }
+    await store.dispatch("fetchCarouselItems");
   },
 };
 </script>

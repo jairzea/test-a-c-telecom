@@ -1,4 +1,3 @@
-<!-- ./src/components/Banner.vue -->
 <template>
   <div class="banner"></div>
 </template>
@@ -11,7 +10,7 @@ export default {
 
 <style scoped>
 .banner {
-  background-image: url(~@/assets/images/fondo-banner.png); /* Ruta de la imagen de fondo en el directorio src/assets */
+  background-image: url(~@/assets/images/fondo-banner.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

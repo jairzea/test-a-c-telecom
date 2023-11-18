@@ -48,7 +48,7 @@
         </app-simple-card>
         <app-simple-card
           title="Vacantes sugeridas por AI"
-          icon="far fa-user"
+          icon="fas fa-head-side-virus"
           iconSize="sm"
           :repetitions="3"
           cardWidth="95%"
@@ -62,7 +62,7 @@
       <div class="flex">
         <app-simple-card
           title="Conocimientos"
-          icon="far fa-user"
+          icon="fas fa-brain"
           iconSize="sm"
           :repetitions="8"
           cardWidth="100%"
@@ -71,7 +71,7 @@
         </app-simple-card>
         <app-simple-card
           title="Habilidades"
-          icon="far fa-user"
+          icon="fas fa-paperclip"
           iconSize="sm"
           :repetitions="8"
           cardWidth="95%"
@@ -82,7 +82,7 @@
       <div class="flex">
         <app-simple-card
           title="Herramientas"
-          icon="far fa-user"
+          icon="fas fa-screwdriver-wrench"
           iconSize="sm"
           :repetitions="8"
           cardWidth="100%"
@@ -129,7 +129,7 @@
       <div class="flex">
         <app-simple-card
           title="Metodologías"
-          icon="far fa-user"
+          icon="fas fa-list"
           iconSize="sm"
           :repetitions="4"
           cardWidth="100%"
@@ -163,7 +163,7 @@
       <div class="flex">
         <app-simple-card
           title="Cultura que ofrecemos"
-          icon="far fa-user"
+          icon="far fa-comments"
           iconSize="sm"
           :repetitions="4"
           cardWidth="100%"
@@ -172,7 +172,7 @@
         </app-simple-card>
         <app-simple-card
           title="Comunidades"
-          icon="far fa-user"
+          icon="fas fa-users"
           iconSize="sm"
           :repetitions="4"
           cardWidth="95%"
