@@ -30,7 +30,6 @@ for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
   app.component(key, component);
 }
 
-// Configuración de Font Awesome
 library.add(
   faFacebookSquare,
   faInstagram,
